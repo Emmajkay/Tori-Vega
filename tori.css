@@ -15,9 +15,10 @@ header{background-image: url(img/encabezado.png);
     padding: 10px;
     padding-left:10% ;
     padding-right: 10%;
-  display: flex;
-justify-content: space-between;
-align-items: center;}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .logo{height:100px;
 }
