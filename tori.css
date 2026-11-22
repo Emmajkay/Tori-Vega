@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-    
+@media (max-width: 768px) {   
 header{background-image: url(img/encabezado.png);
     position: fixed;
     top: 0%;
@@ -21,10 +21,10 @@ header{background-image: url(img/encabezado.png);
 .logo{height:100px;
 }
 .personajes{display: flex;
-justify-content: flex-end;
+justify-content: center;
 align-items: center;
 gap: 100px;
-padding-right: 20%;
+padding-right: 0%;
 color: #fffe90}
 
 h3{color:#fffe90 ;
@@ -112,10 +112,11 @@ h4{
 }
 
 .videoyfoto{
-    width: 500px;
+    width: 90%;
     height: auto;
-    margin-top: 10%;
-    margin-left: 6%;
+    margin-top: 140px;
+    margin-left: 5%;
+    grap: 12%;
     a {
     margin-right:1%;}
     display: flex; 
@@ -123,11 +124,12 @@ h4{
 
 }
 .tori-vega {
-    position: absolute;
-    margin-left: 53%;
-    margin-top: -14.5%;
-    width: 555px;
-    padding: 20px;
+    position: static;
+    width: auto;
+    max-width: 90%;
+    height: auto;
+    padding: 15px;
+    margin: 15px;
     border: 4px solid #fffe90;
     background: #baebff;
     background: linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
@@ -150,17 +152,16 @@ h4{
 
 .estado{
     background-color: #7de0fe;
-    position: absolute;
-    margin-left: 53%;
-    margin-top: -4%;
-    width: 595px;
-    height: 30px;
-    padding-top: 3px;
-    padding-bottom: 2px;
-    margin-right: 3px;
+    position: static;
+    width: auto;
+    max-width: 90%;
+    height: auto;
+    padding: 15px;
+    margin: 3px;
     border: 4px solid #fffe90;
     border-radius: 20px;
     display: flex
+    grap: 6px
    
 }
 .emoji1{
@@ -173,11 +174,12 @@ h4{
 }
 
 .quienes {
-    position: absolute;
-    margin-left: 11.5%;
-    margin-top: 5%;
-    width: 1290px;
-    padding: 20px;
+    position: static;
+    margin: 5%;
+    width: auto;
+    max-width: 90%;
+    height: auto;
+    padding: 15px;
     border: 4px solid #fffe90;
     background: #baebff;
     background: linear-gradient(90deg,#baebff 0%, #fdeeff 20%);
@@ -196,12 +198,13 @@ h4{
     font-weight: 500px;
     font-style: normal;
     color: #fffe90;
-    font-size:30px;
+    font-size: 30px;
     margin-left: 6%;
-    margin-top: 16%;
+    margin-top: 25px;
 }
 .videos{
-    width: 1340px;
+    width: auto;
+    max-width: 90%;
     height: auto;
     margin-left: 12%;
     margin-right: 6%;
@@ -213,19 +216,20 @@ h4{
 
 footer {
     background-image: url(img/pie.png);
-    width: 102%;
-    height: 360px;
-    margin-left: -2%;
-    margin-bottom: -10%;
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-bottom: 0%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
  
 .logo2 {
-    width: 650px;
-    height: 130px;
-    padding-top: 5%;
+    width: 85%;
+    height: auto;
+    max-width: 320px;
+    padding-top: 10px;
     display: block; 
     margin: 0 auto;
 }
